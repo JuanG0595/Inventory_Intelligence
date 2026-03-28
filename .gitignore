@@ -1,0 +1,18 @@
+# Exclude large data files
+
+*.csv
+*.xlsx
+*.xlsb
+
+# Except the following one
+
+!Inventory_Intelligence.csv
+
+# Exclude temporary Excel files
+
+~$*
+
+# System folders
+
+.DS_Store
+-Zone.Identifier
