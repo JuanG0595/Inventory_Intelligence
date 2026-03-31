@@ -1,0 +1,14 @@
+# Exclude large data file
+
+*.csv
+*.xlsx
+*.xlsb
+
+# Except the following one
+
+!Inventory_Intelligence.xlsx
+
+# Exclude temporary Excel files
+
+.DS_Store
+-Zone.identifier
